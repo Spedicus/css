@@ -1,0 +1,249 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Calisthenics</title>
+  <style>
+      header{
+          background: url(purple-leaf.jpeg);
+          background-size: cover;
+          background-position: center;
+          min-height: 1000px;
+      }
+      .section{
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+      .tabs .indicator{
+        background-color: #1a237e;
+      }
+      .tabs .tab a:focus, .tab a:focus.active{
+        background: transparent;
+      }
+      .btn{
+        background-color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+      #image .responsive-img{
+        height: 50%;
+        width:auto;
+      }
+      @media screen and (max-width: 670px){
+        header{
+          min-height: 500px;
+        }
+      }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="brand-logo">Calisthenics</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Programs</a></li>
+          <li><a href="#image">Trainers</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Trainers</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="section scrollspy" id="image">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="Derek.JPG" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6">
+        <h2 class="indigo-text text-darken-4">Derek Lee</h2>
+        <p> Derek Lee is the leader of the group Community Service Scholars (CSS). He is an inspirational leader that pushes his team foward and only allows the best to come foward. His task for his group is that he has to the HTML and CSS. This part of the codeing tht the leader has to do is very crucial to the project because its the main source of the website.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="Biraj.JPG" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Biraj Dutta</h2>
+        <p>Biraj Dutta is the Designer of the Website he uses photoshop to create his beutiful masterpieces. He was motivted to make designs because of his creative mind and is a responsible person. In this project he is in charge of the webpage's attraction. </p>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col s12 l4 ">
+        <img src="Leiws.JPG" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 ">
+         <h2 class="indigo-text text-darken-4">Lewis Pimiento</h2>
+         <p>Lewis Pimiento is another coder of the group. Lewis designs the webpage using his skills of Java Script. He is an important part of the group because he helps out adding good affects or animations to the project which attracts more attention to the webpage their building.</p>
+       </div>
+     </div>
+     <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="Omar.JPG" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Omar Ahmed</h2>
+        <p>Omar Ahmed is the Co-Designer for this project. He helps out Biraj with the images and gives some good advice for attraction. He helps edit some images that </p>
+      </div>
+    </div>
+  </section>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="landscape-BG.jpeg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken 4">What I do...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+      </div>
+      <div class="col s12 l6 offset-12">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#Photography" class="indigo-text text-darken-4">Training</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Nutrition</a>
+          </li>  
+        </ul>
+        <div class="col s12" id="Photography">
+          <p class="flow-text indigo-text text-darken-4">TRAINING</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+        </div>
+        <div class="col s12" id="editing">
+            <p class="flow-text indigo-text text-darken-4">NUTRITION</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+        <img src="wet-apple.jpeg" alt="" class="responsive-img">
+      </div>
+    </div>
+  <!-- contact form -->
+  <section class= "section scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">calendar_today</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Schedule a date</label>
+          </div>
+          <div class="input-field">
+              <p>Services Required</p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photography</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Editing</span>
+                </label>
+              </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>    
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Me</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam. Pretium lectus quam id leo.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2018 Calisthenics</div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true
+      });
+	  $('.scrollspy').scrollSpy({
+		  throttle: 900
+	  });
+    });
+  </script>
+</body>
+</html>
