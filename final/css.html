@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link rel="stylesheet" href="css.css">
+  <title>CSS</title>
+  <style>
+      header{
+          background: url(images/community2.jpg);
+          background-size: cover;
+          background-position: center;
+          min-height: 1000px;
+      }
+      .section{
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+      .tabs .indicator{
+        background-color: #1a237e;
+      }
+      .tabs .tab a:focus, .tab a:focus.active{
+        background: transparent;
+      }
+      .btn{
+        background-color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+      @media screen and (max-width: 670px){
+        header{
+          min-height: 500px;
+        }
+      }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper indigo">
+      <div class="container">
+        <a href="" class="brand-logo">Community Service Scholars</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#image">Programs</a></li>
+          <li><a href="#services">Rewards</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#image">Programs</a></li>
+          <li><a href="#services">Rewards</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section" id="image">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="images/abc.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">The Association to Benefit Children</h2>
+        <p>A program that helps children ranging from 0-5 learn critical life skills; including patience, respect, and manners. They also help children with disabilities and provides children ranging from 5-21 with summer camp including hands-on activities. Activities happen mostly in Manhattan.</p> 
+
+		  <p>Click here for more information and begin contributing: <a href="https://www.a-b-c.org" target="_blank">https://www.a-b-c.org</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="images/bag.jpeg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Big Apple Greeter</h2>
+        <p>You will serve as a greeter, what you mostly do is take a visitor on a tour of a neighborhood and your job is to show them around. They can request any neighborhood in the five boroughs.</p>
+		  
+		  <p>Click here for more information and begin contributing: <a href="https://bigapplegreeter.org" target="_blank">https://bigapplegreeter.org</a></p>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col s12 l4 ">
+        <img src="images/city-harvest.png" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+         <h2 class="indigo-text text-darken-4">City Harvest</h2>
+         <p>A program helps by distributing food out. You can work as someone handing out free food to people in need, deliver food to soup kitchens and food pantries, help package food by sorting them into groups, collect excess food from vendors, or work in the office sending mail and other administrative projects. Based in New York City.</p>
+		  
+		  <p>Click here for more information and begin contributing: <a href="https://www.cityharvest.org" target="_blank">https://www.cityharvest.org</a></p>
+       </div>
+     </div>
+	  <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="images/arc.png" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">American Red Cross</h2>
+        <p>A program that helps those in need. You can take a leadership role and help with marketing and fundraising, recruit blood donors, help during a natural disaster, educate others on how to prepare for these disasters, help patients in military hospitals, first aid and cpr, etc. You can volunteer for all these types of services and give back to your community.</p>
+		  
+		  <p>Click here for more information and begin contributing: <a href="https://www.redcross.org/" target="_blank">https://www.redcross.org/</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="images/nyc-landscape.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken 4">Want to be rewarded?</h2>
+            <p>Cash in your community service hours to earn rewards ranging from something as a small as a pencil all the way to a gift card!</p>
+            <p><button id="redeem-button">Redeem</button></p>
+      </div>
+      <div class="col s12 l6 offset-12">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#Photography" class="indigo-text text-darken-4">Requirements</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Rewards</a>
+          </li>  
+        </ul>
+        <div class="col s12" id="Photography">
+          <p class="flow-text indigo-text text-darken-4">REQUIREMENTS</p>
+          <p>In order for your community service hours to count, you must present a letter from your supervisor confirming that you have indeed perfomed the correct amount of service hours</p>
+          <p>Failure to present said letter will result in any potential redeemable hours being voided.</p>
+        </div>
+        <div class="col s12" id="editing">
+            <p class="flow-text indigo-text text-darken-4">REWARDS</p>
+			<p>When you redeem your built up service hours, you can expect to earn rewards like:</p>
+            <ol id="rewards-list">
+				<li>Pencils</li>
+				<li>Binders</li>
+				<li>Notebooks</li>
+				<li>Bookbags</li>
+				<li>Gift Cards</li>
+			</ol>
+          </div>
+      </div>
+    </div>
+</section>
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+        <img src="images/nyc-landscape-water.jpg" alt="" class="responsive-img">
+      </div>
+    </div>
+  <!-- contact form -->
+  <section class= "section container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+		  <p>We're always looking for feedback on our website and services, feel free to contact us if you feel we should improve on something.</p>
+        <p>We also provide free consultation on what types of community service you can expect or should do. </p>
+        <p>If you feel that you want to perform acts of community service but aren't confident of your skill, feel free to contact us for training. We'll provide the necessary resources to get you up to speed.</p>
+        <p>Be aware, if you want to schedule a consultation or training session, you must provide a date at least two weeks away from the day of submission.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">calendar_today</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Schedule a date</label>
+          </div>
+          <div class="input-field">
+              <p>Services Required</p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Consultation</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Training</span>
+                </label>
+              </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>    
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Us</h5>
+          <p>We are a group focused on providing students with an opportunity to give back to their community and be rewarded for it. We believe that anyone has the potential to do something good for the world, and they can start by doing some simple community service.</p>
+          <p>Want to learn more about the team?</p>
+			  <!-- Modal Trigger -->
+			  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click here!</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal">
+				<div class="modal-content">
+					<section class="container section">
+					<div class="row">
+						  <div class="col s12 l4">
+							<img src="images/Derek.JPG" alt="" class="responsive-img materialboxed">
+						  </div>
+						  <div class="col s12 l6">
+							<h2 class="indigo-text text-darken-4">Derek Lee</h2>
+							<p class="team-text"> Derek Lee is the leader of the group Community Service Scholars (CSS). He is an inspirational leader that pushes his team foward and only allows the best to come foward. His task for his group is that he has to the HTML and CSS. This part of the codeing tht the leader has to do is very crucial to the project because its the main source of the website.</p>
+						  </div>
+						</div>
+						<div class="row">
+						  <div class="col s12 l4 offset-l1 push-l7">
+							<img src="images/birajd.JPG" alt="" class="responsive-img materialboxed">
+						  </div>
+						  <div class="col s12 l6 offset-l1 pull-l5 right-align">
+							<h2 class="indigo-text text-darken-4">Biraj Dutta</h2>
+							<p class="team-text">Biraj Dutta is the Designer of the Website he uses photoshop to create his beutiful masterpieces. He was motivted to make designs because of his creative mind and is a responsible person. In this project he is in charge of the webpage's attraction. </p>
+						  </div>
+						</div>
+						<div class="row">
+						   <div class="col s12 l4 ">
+							<img src="images/Leiws.JPG" alt="" class="responsive-img materialboxed">
+						  </div>
+						  <div class="col s12 l6 ">
+							 <h2 class="indigo-text text-darken-4">Lewis Pimiento</h2>
+							 <p class="team-text">Lewis Pimiento is another coder of the group. Lewis designs the webpage using his skills of Java Script. He is an important part of the group because he helps out adding good affects or animations to the project which attracts more attention to the webpage their building.</p>
+						   </div>
+						 </div>
+						 <div class="row">
+						  <div class="col s12 l4 offset-l1 push-l7">
+							<img src="images/Omar.JPG" alt="" class="responsive-img materialboxed">
+						  </div>
+						  <div class="col s12 l6 offset-l1 pull-l5 right-align">
+							<h2 class="indigo-text text-darken-4">Omar Ahmed</h2>
+							<p class="team-text">Omar Ahmed is the Co-Designer for this project. He helps out Biraj with the images and gives some good advice for attraction. He helps edit some images that </p>
+						  </div>
+						</div>
+						</section>
+				</div>
+				<div class="modal-footer">
+				  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+				</div>
+			  </div>
+					</div>
+					<div class="col s12 l4 offset-l2">
+					  <h5>Connect</h5>
+					  <ul>
+						<li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+						<li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+						<li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+						<li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+				<div class="footer-copyright grey darken-4">
+				  <div class="container center-align">&copy; 2018 Community Service Scholars</div>
+				</div>
+			  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script src="css.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true
+      });
+    });
+  </script>
+</body>
+</html>
